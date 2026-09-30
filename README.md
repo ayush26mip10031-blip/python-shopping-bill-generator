@@ -1,20 +1,20 @@
 # Shopping Bill Generator
 
-A command-line Python application designed to process items, calculate subtotals with tax, and generate formatted digital receipts.
+A command line python application to process items, calculate sub totals with tax and generate a formatted digital receipt.
 
 ## Features
-- Dynamic item entry with real-world validation (prevents negative values and invalid formats)
-- Automated subtotal, tax (5%), and grand total calculations
-- Clean, aligned receipt formatting for command-line output
+- Process items with appropriate validations (avoids negative values and invalid entries)
+- Calculates subtotal, tax (5%) and grand total
+- Displays the receipt in a well-formatted way inside the command line
+## Getting Started
+### Requirements
 
-## Setup and Execution Instructions
+- Python 3 installed in your system.
+### Usage
 
-### Prerequisites
-- Python 3.x installed on your system.
-
-### How to Run
-1. Open your terminal or command prompt.
-2. Navigate to the project directory.
-3. Execute the script using:
-   ```bash
-   python billing_system.py
+1. Open a terminal or command prompt
+2. Navigate to the directory where the billing_system.py file is located.
+3. Run the following command
+```bash
+python billing_system.py
+```
